@@ -39,10 +39,40 @@ Nossa inovação reside no Motor de Lastro de Múltiplos-para-Múltiplos e na ex
 
 ## 2. Problema a Ser Resolvido
 
-- Desafios atuais do mercado de crédito: lentidão, centralização, alto spread, baixa inclusão.
-- Especificidades do crédito P2P (peer-to-peer) e os gargalos de segurança e confiabilidade.
-- Necessidade de inovação para garantir segurança antifraude, score de crédito e usabilidade.
-- Valor agregado da solução frente às alternativas existentes.
+# 2. Problema a Ser Resolvido (Contexto de Mercado)
+
+O CreditFlow nasce da necessidade de superar as barreiras históricas do sistema financeiro brasileiro, que penaliza o segmento de Pequenas e Médias Empresas (PMEs). Apesar de representarem mais de 50% da força de trabalho e 30% do Produto Interno Bruto (PIB) do país, as PMEs enfrentam um acesso ao crédito desproporcional à sua importância econômica (MCKINSEY, 2022).
+
+## 2.1. Desafios Atuais do Mercado de Crédito: Lentidão, Centralização e Custo
+
+O mercado é historicamente caracterizado por gargalos que limitam o crescimento das PMEs, especialmente aquelas que buscam capital de giro:
+
+| Desafio                    | Detalhamento com Dados de Mercado                                                                                               |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| Lentidão e Burocracia na Análise | O processo de underwriting tradicional é ineficiente. Apenas três em cada dez donos de pequenos negócios que buscaram empréstimos conseguiram obter crédito junto aos agentes financeiros (SEBRAE, 2023). O CreditFlow ataca essa morosidade, prometendo a decisão de crédito lastreado em segundos via automatização do scoring. |
+| Centralização e Baixa Inclusão    | O mercado de crédito é majoritariamente concentrado, o que leva à exclusão de segmentos importantes. O acesso ao crédito bancário é o maior obstáculo enfrentado por 27% dos MEIs (Microempreendedores Individuais) (SEBRAE, 2025).                    |
+| Alto Spread e Risco Mal Precificado  | O elevado custo final do crédito é uma consequência do alto custo operacional das grandes instituições (FECOMERCIO, 2025). Além disso, a falta de modelos de scoring adequados para PMEs com pouco histórico bancário resulta em uma precificação de risco injusta. |
+
+O mercado de crédito brasileiro registrou crescimento no crédito para Pessoas Jurídicas em 2025, porém as PMEs continuam enfrentando restrições. Apenas cerca de 20% do total da concessão de crédito para empresas é destinada ao segmento de micro e pequenas empresas (SEBRAE, 2024). Em 2025, cerca de 68% dos pedidos de crédito das PMEs foram negados devido a avaliações desfavoráveis de risco (SERASA; OPINION BOX, 2025).
+
+## 2.2. Especificidades do P2P e a Necessidade de Inovação em Segurança
+
+O modelo Peer-to-Peer (P2P), regulamentado no Brasil para fomentar a concorrência (Banco Central do Brasil, 2022), oferece eficiência, mas exige soluções tecnológicas para garantir a confiança e segurança que o intermediário tradicional fornecia:
+
+- **Gargalo de Confiança e Score:** O risco de crédito é assumido pelos investidores P2P (BCB, 2022). É vital desenvolver um Sistema de Score de Crédito que vá além dos dados tradicionais para proteger o capital investido e oferecer taxas justas à PME.
+- **Gargalo de Lastro e Integridade:** O foco do CreditFlow é o crédito lastreado em recebíveis. O maior risco técnico é a PME ceder o mesmo ativo para múltiplas instituições. A inovação é necessária para garantir segurança e controle da duplicidade do lastro via integração com a Registradora.
+- **Gargalo de Liquidez (Investidor):** As plataformas P2P enfrentam o problema do capital ineficiente: o dinheiro do investidor fica parado (em pledge) esperando a conclusão do contrato pela PME.
+
+## 2.3. Valor Agregado da Solução CreditFlow Frente às Alternativas
+
+O CreditFlow atua como um SCD tecnológico, resolvendo os problemas de lentidão e risco do mercado por meio de quatro diferenciais centrais:
+
+| Inovação do CreditFlow               | Valor Agregado                                                                                                                                                |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Motor de Lastro N:M e Registradora  | Garante a integridade da garantia do crédito lastreado, mitigando o risco de fraude. Permite o uso de múltiplos recebíveis para múltiplos empréstimos, maximizando o capital da PME. |
+| Mecanismo de Ativação P2P            | Resolve o problema da inércia de capital do investidor, que só efetua o pagamento no momento da contratação pela PME, otimizando a liquidez e aumentando a atratividade.                      |
+| Score Híbrido Inclusivo              | Combina scoring tradicional com dados comportamentais de recebíveis e fluxo de caixa da PME.                           |
+| UX de Crédito Onipresente            | Transforma o processo burocrático em uma experiência Chatbot/WhatsApp end-to-end, garantindo a usabilidade e uma camada interativa educacional.                                                   |
 
 ---
 
@@ -155,10 +185,17 @@ Nossa inovação reside no Motor de Lastro de Múltiplos-para-Múltiplos e na ex
 
 ## 15. Referências & Apêndices
 
-- Links para documentos oficiais da QI Tech.
-- Fontes de dados de mercado.
-- Documentação técnica relevante.
-- Glossário de termos técnicos e financeiros usados.
+BCB. Banco Central do Brasil. Fintechs de empréstimos P2P: características e aspectos competitivos. Relatório de Economia Bancária, Boxe 5. Brasília, 2022. Disponível em: https://www.fecomercio.com.br/noticia/sinais-de-alerta-a-tomada-de-credito-pelas-empresas.
+
+FECOMERCIO. Sinais de alerta à tomada de crédito pelas empresas. São Paulo, 2025. Disponível em: https://www.fecomercio.com.br/noticia/sinais-de-alerta-a-tomada-de-credito-pelas-empresas.
+
+MCKINSEY. O novo normal do crédito para PME: desafios, tendências e inovações. São Paulo, 2022. Disponível em: https://www.mckinsey.com/br/our-insights/all-insights/o-novo-normal-do-credito-para-pme.
+
+SEBRAE. Crédito negado: apenas 3 de cada 10 empresários que buscam empréstimo têm sucesso. ASN Nacional. Brasília, 2023. Disponível em: https://agenciasebrae.com.br/dados/credito-negado-apenas-3-de-cada-10-empresarios-que-buscam-emprestimo-tem-sucesso/.
+
+SEBRAE. Pesquisa MEIs Em Foco: Os Desafios Reais De Quem Empreende No Brasil. Curitiba, 2025. Disponível em: https://sebraepr.com.br/impulsiona/meis-em-foco-os-desafios-reais-de-quem-empreende-no-brasil/?srsltid=AfmBOoqtZy9ymX7LHWEH6IBVZc_dul6JZcTbLOiTm1ZcqB8K3Dkf84wi .
+
+SERASA; OPINION BOX. Acesso ao crédito ainda é barreira para 68% das mulheres que empreendem no Brasil. São Paulo, 2025. Disponível em: https://mulher.istoe.com.br/acesso-ao-credito-ainda-e-barreira-para-68-das-mulheres-que-empreendem-no-brasil#:~:text=Al%C3%A9m%20do%20alto%20%C3%ADndice%20de,por%20barreiras%20financeiras%20e%20sociais..
 
 ---
 
