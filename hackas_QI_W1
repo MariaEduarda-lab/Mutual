@@ -39,42 +39,37 @@ Nossa inovação reside no Motor de Lastro de Múltiplos-para-Múltiplos e na ex
 
 ## 2. Problema a Ser Resolvido
 
-# 2. Problema a Ser Resolvido (Contexto de Mercado)
+# 2. Problema a Ser Resolvido (Contexto de Mercado) - Foco em PMEs
 
-O CreditFlow nasce da necessidade de superar as barreiras históricas do sistema financeiro brasileiro, que penaliza o segmento de Pequenas e Médias Empresas (PMEs). Apesar de representarem mais de 50% da força de trabalho e 30% do Produto Interno Bruto (PIB) do país, as PMEs enfrentam um acesso ao crédito desproporcional à sua importância econômica (MCKINSEY, 2022).
+O CreditFlow é uma solução criada para resolver a ineficiência no mercado de crédito que afeta diretamente as Pequenas e Médias Empresas (PMEs). Este segmento, que impulsiona a economia brasileira ao gerar aproximadamente 30% do Produto Interno Bruto (PIB) (MCKINSEY, 2022), é o mais penalizado pela estrutura de crédito tradicional.
 
-## 2.1. Desafios Atuais do Mercado de Crédito: Lentidão, Centralização e Custo
+## 2.1. Desafios Atuais do Mercado de Crédito: Centralização, Custo e Lentidão
 
-O mercado é historicamente caracterizado por gargalos que limitam o crescimento das PMEs, especialmente aquelas que buscam capital de giro:
+O sistema financeiro tradicional impõe barreiras significativas que impedem as PMEs de acessarem o capital de giro necessário para crescer:
 
-| Desafio                    | Detalhamento com Dados de Mercado                                                                                               |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Lentidão e Burocracia na Análise | O processo de underwriting tradicional é ineficiente. Apenas três em cada dez donos de pequenos negócios que buscaram empréstimos conseguiram obter crédito junto aos agentes financeiros (SEBRAE, 2023). O CreditFlow ataca essa morosidade, prometendo a decisão de crédito lastreado em segundos via automatização do scoring. |
-| Centralização e Baixa Inclusão    | O mercado de crédito é majoritariamente concentrado, o que leva à exclusão de segmentos importantes. O acesso ao crédito bancário é o maior obstáculo enfrentado por 27% dos MEIs (Microempreendedores Individuais) (SEBRAE, 2025).                    |
-| Alto Spread e Risco Mal Precificado  | O elevado custo final do crédito é uma consequência do alto custo operacional das grandes instituições (FECOMERCIO, 2025). Além disso, a falta de modelos de scoring adequados para PMEs com pouco histórico bancário resulta em uma precificação de risco injusta. |
+| Desafio                    | Detalhamento com Dados de Mercado e Foco em PME                                                                                             |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Lentidão e Burocracia na Análise    | O processo de underwriting é desproporcional à necessidade de velocidade das PMEs. Apenas três em cada dez donos de pequenos negócios que buscaram empréstimos conseguiram obter crédito, refletindo a baixa taxa de sucesso e a morosidade do processo (SEBRAE, 2023).  |
+| Centralização e Baixa Inclusão       | O crédito para o segmento de PMEs é drasticamente sub-servido, representando historicamente apenas 9% do volume total emprestado no país (MCKINSEY, 2022). Essa concentração afasta as PMEs que não se encaixam no perfil de risco dos grandes bancos.                             |
+| Alto Spread e Falta de Garantias Líquidas | O alto custo do crédito é imposto, em parte, pela ineficiência do modelo tradicional (FECOMERCIO, 2025). Além disso, PMEs com bons recebíveis (parcelamentos de clientes, contratos) lutam para usar esse ativo como garantia de forma ágil, pois o sistema é avesso a modelos de lastro flexíveis. |
 
-O mercado de crédito brasileiro registrou crescimento no crédito para Pessoas Jurídicas em 2025, porém as PMEs continuam enfrentando restrições. Apenas cerca de 20% do total da concessão de crédito para empresas é destinada ao segmento de micro e pequenas empresas (SEBRAE, 2024). Em 2025, cerca de 68% dos pedidos de crédito das PMEs foram negados devido a avaliações desfavoráveis de risco (SERASA; OPINION BOX, 2025).
+## 2.2. Especificidades do P2P e os Gargalos de Segurança e Confiabilidade
 
-## 2.2. Especificidades do P2P e a Necessidade de Inovação em Segurança
+O modelo Peer-to-Peer (P2P), embora mais eficiente, exige uma solução robusta para proteger as operações de PMEs e o capital dos investidores:
+- **Gargalo de Integridade do Lastro:** Para PMEs que cedem recebíveis como garantia, o risco de usar o mesmo ativo em múltiplas transações (duplicidade) é real. A confiança no crédito lastreado depende de uma estrutura tecnológica que garanta o controle da garantia via Registradora.
+- **Gargalo de Confiança e Risco:** Investidores que financiam PMEs exigem transparência e validação rigorosa. A plataforma deve ter um Sistema de Score de Crédito que vá além do scoring tradicional (que tende a penalizar PMEs) para construir confiança no ativo P2P.
+- **Gargalo de Liquidez (Investidor):** Para atrair capital de investidores qualificados, o dinheiro não pode ficar parado (pledge inativo). A ineficiência de capital afeta a atratividade do modelo P2P.
 
-O modelo Peer-to-Peer (P2P), regulamentado no Brasil para fomentar a concorrência (Banco Central do Brasil, 2022), oferece eficiência, mas exige soluções tecnológicas para garantir a confiança e segurança que o intermediário tradicional fornecia:
+## 2.3. Valor Agregado da Solução CreditFlow (Foco PME)
 
-- **Gargalo de Confiança e Score:** O risco de crédito é assumido pelos investidores P2P (BCB, 2022). É vital desenvolver um Sistema de Score de Crédito que vá além dos dados tradicionais para proteger o capital investido e oferecer taxas justas à PME.
-- **Gargalo de Lastro e Integridade:** O foco do CreditFlow é o crédito lastreado em recebíveis. O maior risco técnico é a PME ceder o mesmo ativo para múltiplas instituições. A inovação é necessária para garantir segurança e controle da duplicidade do lastro via integração com a Registradora.
-- **Gargalo de Liquidez (Investidor):** As plataformas P2P enfrentam o problema do capital ineficiente: o dinheiro do investidor fica parado (em pledge) esperando a conclusão do contrato pela PME.
+O CreditFlow inova ao utilizar tecnologia como um SCD, resolvendo os problemas de lentidão e risco do mercado de PMEs por meio de:
 
-## 2.3. Valor Agregado da Solução CreditFlow Frente às Alternativas
-
-O CreditFlow atua como um SCD tecnológico, resolvendo os problemas de lentidão e risco do mercado por meio de quatro diferenciais centrais:
-
-| Inovação do CreditFlow               | Valor Agregado                                                                                                                                                |
-|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motor de Lastro N:M e Registradora  | Garante a integridade da garantia do crédito lastreado, mitigando o risco de fraude. Permite o uso de múltiplos recebíveis para múltiplos empréstimos, maximizando o capital da PME. |
-| Mecanismo de Ativação P2P            | Resolve o problema da inércia de capital do investidor, que só efetua o pagamento no momento da contratação pela PME, otimizando a liquidez e aumentando a atratividade.                      |
-| Score Híbrido Inclusivo              | Combina scoring tradicional com dados comportamentais de recebíveis e fluxo de caixa da PME.                           |
-| UX de Crédito Onipresente            | Transforma o processo burocrático em uma experiência Chatbot/WhatsApp end-to-end, garantindo a usabilidade e uma camada interativa educacional.                                                   |
-
----
+| Inovação do CreditFlow  | Benefício e Impacto para a PME                                                                                                                                                   |
+|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Decisão Imediata (Score Híbrido) | Permite que a PME saiba em segundos o limite e a taxa de seu crédito lastreado. O Score Híbrido avalia o fluxo de recebíveis, tornando o risco mais justo para empresas que, de outra forma, teriam o crédito negado (SEBRAE, 2023).  |
+| Motor de Lastro N:M e Registradora | Oferece flexibilidade máxima para a PME, permitindo que múltiplos recebíveis sirvam de garantia para múltiplos empréstimos. O controle rigoroso, com segurança antifraude, garante a integridade e a confiança no lastro.              |
+| Mecanismo de Ativação P2P        | Garante que o Investidor seja atraído pela eficiência de capital, o que se traduz em um custo de captação menor para a PME no longo prazo.                                                                                   |
+| UX de Crédito Onipresente         | Transforma o processo de crédito em uma jornada Chatbot/WhatsApp fácil e intuitiva, eliminando a burocracia física e acelerando o acesso ao capital. 
 
 ## 3. Público-Alvo & Personas
 
@@ -195,7 +190,6 @@ SEBRAE. Crédito negado: apenas 3 de cada 10 empresários que buscam empréstimo
 
 SEBRAE. Pesquisa MEIs Em Foco: Os Desafios Reais De Quem Empreende No Brasil. Curitiba, 2025. Disponível em: https://sebraepr.com.br/impulsiona/meis-em-foco-os-desafios-reais-de-quem-empreende-no-brasil/?srsltid=AfmBOoqtZy9ymX7LHWEH6IBVZc_dul6JZcTbLOiTm1ZcqB8K3Dkf84wi .
 
-SERASA; OPINION BOX. Acesso ao crédito ainda é barreira para 68% das mulheres que empreendem no Brasil. São Paulo, 2025. Disponível em: https://mulher.istoe.com.br/acesso-ao-credito-ainda-e-barreira-para-68-das-mulheres-que-empreendem-no-brasil#:~:text=Al%C3%A9m%20do%20alto%20%C3%ADndice%20de,por%20barreiras%20financeiras%20e%20sociais..
 
 ---
 
