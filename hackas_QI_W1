@@ -29,10 +29,11 @@
 
 ## 1. Resumo Executivo & Introdução
 
-- Breve descrição da proposta da solução P2P de crédito.
-- Benefícios para usuários e para o mercado financeiro.
-- Contexto da QI Tech, missão e posicionamento no mercado.
-- Breve referência à parceria com W1 e a importância do hackathon.
+O CreditFlow é uma plataforma Lending as a Service (LaaS) de crédito P2P lastreado em recebíveis que atua como intermediário tecnológico entre Pequenas e Médias Empresas (PMEs) e investidores. 
+
+Alinhado com a missão da QI Tech de democratizar o acesso ao crédito e oferecer soluções end-to-end, o CreditFlow utiliza a licença de SCD/DTVM (simulada) para estruturar operações de emissão de crédito de forma instantânea e segura. A QI Tech, por ser a primeira SCD aprovada pelo Banco Central no Brasil , oferece a infraestrutura e a cultura tecnológica necessárias para o sucesso desta solução.
+
+Nossa inovação reside no Motor de Lastro de Múltiplos-para-Múltiplos e na experiência do usuário focada em chatbot e WhatsApp, removendo a lentidão e a burocracia do mercado tradicional. O desenvolvimento deste produto coeso envolve um sistema de carteira, infraestrutura Peer to Peer, requisitos de segurança (antifraude) e sistema de score de crédito.
 
 ---
 
