@@ -231,8 +231,7 @@ A arquitetura back-end robusta permite um front-end de altíssima velocidade e c
 
 Para o Mutual, um marketplace P2P de crédito lastreado em recebíveis para PMEs, a arquitetura proposta tem como objetivo ser simples e escalável. 
 
-Criaremos uma aplicação web responsiva, backend para lógica de negócio e integrações externas. 
-Partindo da filosofia KISS (Keep It Simple, Stupid) que diz que design de sistemas devem ser simples ao máximo, evitando complexidade desnecessária, propomos uma estrutura monolítica inicial, com possibilidade de evoluir para microsserviços.
+Criaremos uma aplicação web responsiva, backend para lógica de negócio e integrações externas. Partindo da filosofia KISS (Keep It Simple, Stupid) que diz que design de sistemas devem ser simples ao máximo, evitando complexidade desnecessária, propomos uma estrutura monolítica inicial, com possibilidade de evoluir para microsserviços.
 
 A arquitetura segue o padrão em camadas: User Layer (interface), Application Layer (lógica), Data Layer (armazenamento) e External Integrations (APIs QI Tech e outras). Propomos o uso de tecnologias acessíveis: Nextjs para frontend, Node.js ou Python para backend, e deployment em cloud, pois tais tecnologias são amplamente adotadas, possuem vasta documentação e comunidade ativa, facilitando o desenvolvimento rápido e a manutenção.
 
@@ -360,7 +359,6 @@ Informações de endereço da empresa ou usuários.
 - `state` → Estado  
 - `postal_code` → CEP  
 
----
 
 ## **Tabela contact**  
 Registra formas de contato de uma empresa.  
@@ -447,6 +445,16 @@ Segurança é primordial em plataformas financeiras P2P, onde vazamentos podem r
 - **Criptografia de Dados:** Dados sensíveis (ex.: CPF, histórico financeiro) criptografados em trânsito (TLS 1.3) e em repouso (AES-256). Para RAG, embeddings anonimizados evitam exposição de PII (Personally Identifiable Information). Para lidar com a conformidade LGPD, é necessário implementar consentimento explícito para uso de dados no chat, com auditorias regulares.
 - **Proteção contra Ataques:** Rate limiting no chat para evitar DDoS; WAF (Web Application Firewall) como AWS Shield. Para RAG, validar inputs para prevenir injeções de prompt (prompt injection attacks), comuns em LLMs. 
 
+
+### **Fluxos da Aplicação** <br/>
+
+
+1. **Onboarding da PME:** A PME cria uma conta, passando por KYC/KYB via integração com APIs de verificação (ex.: Serasa Experian). Após aprovação, a PME pode conectar suas contas bancárias para análise de recebíveis.
+2. **Solicitação de Empréstimo via Chatbot:** A PME descreve sua necessidade de crédito em linguagem natural. O RAG processa a consulta, recupera dados relevantes (recebíveis, scores) e gera uma proposta personalizada.
+3. **Underwriting e Aprovação:** O motor de score híbrido avalia o risco em segundos. Se aprovado, a PME revisa os termos e aceita a oferta.
+4. **Emissão do Empréstimo e Vinculação de Recebíveis:** O empréstimo é formalizado via DTVM da QI Tech, com recebíveis vinculados como garantia no motor N:M.
+5. **Gestão do Empréstimo:** A PME faz pagamentos via conta digital (BaaS). O sistema monitora inadimplência e notifica investidores sobre pagamentos e status do empréstimo.
+  
 
 ## 8. Diferenciais e Inovação
 
