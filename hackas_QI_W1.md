@@ -225,16 +225,6 @@ A arquitetura back-end robusta permite um front-end de altíssima velocidade e c
 
 ## 7. Arquitetura Técnica
 
-- Diagrama simplificado (inserir link ou referência).
-- Tecnologias escolhidas (liberdade para justificar as escolhas).
-- Integração com APIs da QI Tech e outros recursos.
-- Componentes e módulos principais: carteira digital, motor de crédito, antifraude, interface usuário.
-  
-- [x] Adicionar a estrutura do banco de dados
-- [x] Adicionar a argumentação do rag e sua estrutura 
-- [x] Adicionar as tecnologias sugeridas
-- [ ] Adicionar questao sobre integracao com a api da qitech
-- [ ] Adicionar desenhos de arquitetura tecnica e fluxos    
 
 
 ###  Arquitetura 
