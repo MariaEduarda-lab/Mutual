@@ -95,16 +95,17 @@ Focamos em PMEs de Varejo e Serviços com faturamento que exige agilidade e que 
 
 ### 3.2. Público-Alvo Secundário: Investidores (Credores)
 
-Miramos em indivíduos e instituições que buscam ativos de crédito de alta qualidade, transparência e eficiência de capital.
+Miramos em Pessoas Físicas Qualificadas que buscam ativos de crédito alternativos com alto yield, mas que exigem a transparência e a segurança jurídica de nível institucional.
 
-#### Persona 2: Ricardo - O Alocador Institucional (Credor)
+#### Persona 2: Ricardo - O Investidor Qualificado (Credor - Pessoa Física)
 
-| Tópico        | Detalhe                                                                                     |
-|---------------|--------------------------------------------------------------------------------------------|
-| Quem é?       | Gestor de Risco em uma Gestora de Patrimônio Privado (Assets under Management: R$ 500 milhões). Busca alocar capital em crédito privado. |
-| Motivação     | Retorno Ajustado ao Risco: Rentabilidade superior à renda fixa tradicional, segurança de lastro e diversificação de default.                |
-| Dores         | 1. Opaquidade de FIDCs: Altas taxas de administração e falta de visibilidade dos ativos reais.<br> 2. Inércia de Capital: Capital parado (pledge inativo) esperando formalização dos empréstimos. |
-| Como o Mutual Ajuda | 1. Transparência & Performance: Paga apenas uma Taxa Administrativa Fixa e uma Taxa de Performance sobre o lucro, alinhando incentivos.<br> 2. Lastro Certificado: Garantia do recebível registrado (Registradora/DTVM) e underwriting rigoroso com segurança jurídica e técnica. |
+| Tópico       | Detalhe                                                                                                                     |
+|--------------|----------------------------------------------------------------------------------------------------------------------------|
+| Quem é?      | Profissional liberal (CPF) com patrimônio acima de R$ 300 mil. Busca alocar capital para rendimentos superiores à renda fixa tradicional (CDBs/LCIs). |
+| Motivação    | Retorno Ajustado ao Risco: Obter rentabilidade superior através de ativos de crédito de PMEs, com a segurança de que seu investimento está rastreado e certificado. |
+| Dores        | 1. Opacidade e Risco: Receio em investir em plataformas P2P tradicionais devido à falta de segurança jurídica e risco de fraude/duplicidade de garantias. <br> 2. Falta de Transparência: Dificuldade em entender a composição do retorno e as taxas cobradas. |
+| Como o Mutual Ajuda | 1. Lastro Certificado: Acesso a pools de empréstimos com garantia do recebível registrado e custodiado (via DTVM), oferecendo segurança jurídica de nível institucional ao pequeno investidor. <br> 2. Transparência & Performance: O modelo de Performance Fee garante que a plataforma só lucre significativamente se o retorno líquido do investidor for superior, alinhando os incentivos. |
+
 
 
 ---
@@ -257,8 +258,32 @@ O Score de Credor é uma métrica interna de Confiança e Liquidez que protege t
 - **Utilidade:** Credores com Score alto têm prioridade de match nos ativos mais rentáveis e acesso a Pools exclusivas.
 
 ---
+### 6.4. Camadas de Experiência e Engajamento (Novas Features)
 
-### 6.4. Estrutura das Pools (Onde o Risco Encontra a Liquidez)
+Para garantir a transparência e a fidelização em ambas as pontas do marketplace, o Mutual adiciona camadas de experiência que agilizam e educam o usuário.
+
+---
+
+#### A. Central de Conhecimento e Simulação (Tomador e Credor)
+
+O chatbot não é apenas um portal de entrada, mas também um consultor de compliance e educação financeira para a PME e o Investidor.
+
+| Usuário       | Funcionalidade do Chatbot                                                                                               | Valor Estratégico                                                                                                         |
+|---------------|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| PME (Tomador) | A PME informa o valor e a taxa de juros desejada. O chatbot entra na camada educacional para explicar, em linguagem simples, o máximo que pode ser solicitado com base no seu lastro de recebíveis. | Simulação em Tempo Real: Evita que a PME perca tempo com pedidos fora da realidade do seu lastro e alinha as expectativas sobre o Score Híbrido e o Risco. |
+| Credor (Investidor) | O Investidor interage para entender a performance de pools, comparar taxas (Ex: PRONAMPE) e obter insights sobre os juros mais procurados na plataforma. | Transparência Ativa: Desmistifica o investimento em crédito, transformando dados complexos em informações simples e acionáveis, incentivando a alocação de capital. |
+
+---
+
+#### B. WhatsApp (UX Onipresente Secundário)
+
+O WhatsApp será o canal secundário de acompanhamento para ambos os usuários, garantindo que a informação crítica seja proativa.
+
+- **PME (Tomador):** Recebe notificações sobre status de pagamento (lembretes de vencimento), status da dívida e comprovantes de quitação.
+- **Credor (Investidor):** Recebe notificações sobre a performance de suas pools de investimento, updates de alocação de capital.
+
+
+### 6.5. Estrutura das Pools (Onde o Risco Encontra a Liquidez)
 
 A estrutura das Pools é o mecanismo que pulveriza o risco (Tomador) e permite a autonomia (Credor), garantindo liquidez e segurança para todos os perfis.
 
@@ -313,9 +338,44 @@ Este modelo garante escalabilidade e atrai Investidores, pois o Mutual só é re
 
 ## 8. Diferenciais e Inovação
 
-- Pontos que destacam a solução no mercado.
-- Uso de tecnologia de ponta ou ideias inovadoras de segurança/UX.
-- Como a solução atende requisitos de escalabilidade, segurança e compliance.
+O Mutual se destaca por não apenas facilitar o crédito P2P, mas por redefinir a segurança, a agilidade e o alinhamento de incentivos no mercado de PMEs lastreadas, graças à integração da SCD/DTVM da QI Tech com nossa lógica de negócio proprietária.
+
+---
+
+### 8.1. Principais Diferenciais Competitivos
+
+O Mutual se posiciona em uma categoria superior, competindo com Fintechs P2P (Ex: Nexoos, Ulend) em agilidade e com Grandes Bancos em segurança, mas superando ambos através de inovações focadas.
+
+| Diferencial do Mutual       | O que Acrescenta Valor                                                                                  | Supera a Concorrência Como?                                                                                  |
+|-----------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Monetização por Performance Fee | Alinha os interesses do Mutual e do Credor (Investidor).                                               | Supera o spread opaco dos bancos e o modelo de taxa fixa das SEPs, pois o Mutual maximiza o lucro se o yield líquido for alto. |
+| Score Híbrido e UX Onipresente   | Entrega decisão de crédito em segundos via Chatbot, com análise justa do risco da PME.                  | Supera a burocracia e lentidão dos bancos e a análise tradicional das SEPs, que penaliza PMEs com bom fluxo, mas score baixo.       |
+| Motor de Lastro N:M               | Permite que a PME use seu recebível de forma flexível (N garantias para M empréstimos), maximizando capital. | Supera o modelo tradicional de lastro inflexível, que exige que o ativo seja totalmente comprometido, mesmo para pequenos empréstimos. |
+
+---
+
+### 8.2. Uso de Tecnologia de Ponta e Ideias Inovadoras
+
+O valor do Mutual é criado ao combinar o rigor de uma instituição financeira com a usabilidade de uma startup de consumo.
+
+| Inovação Tecnológica       | Objetivo de Negócio                                                                                                                     |
+|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Custódia por DTVM e Registro (QI Tech) | Segurança antifraude incontestável: garante posse jurídica do lastro (recebíveis) pelo Investidor via registro compulsório, eliminando risco de duplicidade. |
+| Chatbot Consultivo (PME e Credor)      | UX onipresente e educação financeira: para PME, simula crédito e educa sobre limites dentro do lastro; para Credor, transforma dados de mercado em insights simples.    |
+| APIs de Banking/Notificação            | Engajamento e stickiness: uso do WhatsApp para notificação proativa sobre status da dívida da PME e performance das pools do Investidor.                                  |
+
+---
+
+### 8.3. Atendimento aos Requisitos Críticos do Mercado
+
+A arquitetura do Mutual foi desenhada para atender diretamente aos principais desafios do ecossistema financeiro regulado.
+
+| Requisito         | Solução Implementada pelo Mutual                                                                                                  |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Escalabilidade    | Arquitetura Asset-Light (SCD): Mutual não precisa alocar capital próprio; escala conforme volume de transações e funding cresce. |
+| Segurança e Risco | Lastro N:M + DTVM: registro legal dos recebíveis na Custódia da DTVM da QI Tech minimiza risco de fraude e duplicidade técnica e jurídica. |
+| Compliance e Regulamentação | Infraestrutura QI Tech (SCD/DTVM): operação dentro das resoluções do Banco Central, garantindo conformidade para transações com Credores Institucionais (FIDCs).           |
+
 
 ---
 
@@ -329,64 +389,67 @@ Este modelo garante escalabilidade e atrai Investidores, pois o Mutual só é re
 
 ## 10. Modelo de Negócios & Monetização
 
-O modelo de negócios do Mutual é estruturado como um Marketplace de Ativos de Crédito P2P Lastreado (SCD), com foco na eficiência transacional e na curadoria de ativos para o Investidor. Nossa rentabilidade é garantida por um modelo Fee-Based (baseado em taxas), que é mais escalável e transparente que o spread tradicional, além de alinhar o lucro da plataforma ao sucesso do Investidor.
-
-### 10.1. Fontes de Receita Previstas (Modelo de Performance)
-
-O Mutual utiliza um modelo de receita em duas partes (Taxa de Performance) cobrada ao Investidor (Credor). Esse modelo garante duas vantagens competitivas críticas: Alinhamento de Incentivos e Escalabilidade Superior.
-
-| Componente da Receita       | Definição                                                                                      | Benefício Estratégico                                                                                                 |
-|----------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| 1. Taxa Administrativa Fixa (Taxa X) | Cobrada sobre o Capital Total Alocado (em pledge ou investido) pelo Credor. (Ex: 0,2% ao ano).  | Cobre custos operacionais, de compliance e o uso da infraestrutura SCD/DTVM da QI Tech, garantindo break-even da operação. |
-| 2. Taxa de Performance (Taxa Y)   | Cobrada como porcentagem (Performance Fee) sobre o Lucro Bruto gerado pelo Credor na Pool. (Ex: 10% do Lucro). | Alinhamento de Incentivos: Só ganha significativamente se o Score Híbrido e o Lastro N:M entregarem yield superior. É principal fator de escalabilidade e atração de FIDCs. |
+O modelo de negócios do Mutual é estruturado como um Marketplace de Ativos de Crédito P2P Lastreado (SCD), com foco na eficiência transacional e, principalmente, em oferecer segurança de nível institucional para o Investidor Pessoa Física. Nossa rentabilidade é garantida por um modelo Fee-Based (baseado em taxas), que é mais escalável e transparente que o spread tradicional.
 
 ---
 
-#### A. Alinhamento e Transparência (Diferencial)
+### 10.1. Fontes de Receita Previstas (Modelo de Performance)
 
-O modelo de performance promove a transparência ao separar claramente o custo do serviço do risco do ativo, substituindo o spread opaco do mercado.
+O Mutual utiliza um modelo de receita em duas partes (Taxa de Performance) cobrada ao Investidor Pessoa Física (Credor). Este modelo garante duas vantagens competitivas críticas: Alinhamento de Incentivos e Atração de Capital PF.
 
-| Fator de Transparência      | Justificativa e Dado de Mercado                                                                                                                           |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Clareza da Performance Fee  | Mutual comunica ao Investidor o Rendimento Bruto do ativo lastreado e separadamente a Taxa de Performance e a Taxa Fixa, diferencial importante para investidores. |
-| Preços Competitivos         | Estrutura criada para garantir que o retorno líquido final do Credor seja superior, atraindo capital institucional de forma mais eficiente que fundos tradicionais (BCB, 2022). |
+| Componente da Receita           | Definição                                                                                                   | Benefício Estratégico (Foco no PF)                                                                     |
+|--------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| 1. Taxa Administrativa Fixa (Taxa X) | Cobrada sobre o Capital Total Alocado (em pledge ou investido) pelo Credor. (Ex: 0,2% ao ano).                    | Cobre custos operacionais, de compliance e uso da infraestrutura SCD/DTVM da QI Tech, garantindo break-even e segurança do ativo para o PF. |
+| 2. Taxa de Performance (Taxa Y)     | Cobrada como porcentagem (Performance Fee) sobre o Lucro Bruto gerado pelo Credor na Pool. (Ex: 10% do Lucro). | Alinhamento de Incentivos: Mutual só ganha significativamente se o Score Híbrido entregar yield superior. Principal fator de confiança e atração do Investidor PF. |
+
+---
+
+#### A. Alinhamento e Transparência (Diferencial para o PF)
+
+O modelo de performance promove a transparência, crucial para o investidor PF que desconfia do spread bancário, ao separar claramente o custo do serviço do risco do ativo.
+
+| Fator de Transparência       | Justificativa e Dado de Mercado                                                                                                         |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Clareza da Performance Fee   | Mutual comunica ao Investidor o Rendimento Bruto do ativo lastreado e, separadamente, a Taxa de Performance e a Taxa Fixa, oferecendo clareza superior a fundos e produtos bancários. |
+| Preços Competitivos          | Estrutura visa garantir que o retorno líquido final do Credor seja superior e juridicamente mais seguro que em plataformas P2P sem registro em DTVM.   |
 
 ---
 
 #### B. Escalabilidade (Modelo Asset-Light)
 
-A escalabilidade é o maior benefício desse modelo de SCD (fee-based), pois a plataforma não precisa comprometer seu próprio capital.
+A escalabilidade é o maior benefício do modelo SCD (fee-based), pois a plataforma não precisa comprometer seu próprio capital, focando na atração de volume de CPFs.
 
-| Fator de Escalabilidade     | Justificativa e Dado de Mercado                                                                        |
-|-----------------------------|-----------------------------------------------------------------------------------------------------|
-| Alívio do Balanço (Asset-Light) | Mutual é facilitador (SCD) que conecta capital do Investidor à PME (P2P). Sem risco de balanço próprio, permitindo crescimento rápido no mercado sub-atendido (MCKINSEY, 2022). |
-| Crescimento Baseado em Volume| Receita escala diretamente com volume de transações e qualidade dos ativos, não com margem de juros, tornando-o mais escalável (FINRO, 2025). |
+| Fator de Escalabilidade       | Justificativa e Dado de Mercado                                                                     |
+|-------------------------------|----------------------------------------------------------------------------------------------------|
+| Alívio do Balanço (Asset-Light)| Mutual é facilitador (SCD) que conecta capital da Pessoa Física à PME (P2P). Sem risco de balanço próprio, permite crescimento rápido no mercado sub-atendido (MCKINSEY, 2022). |
+| Crescimento Baseado em Volume  | Receita escala com volume e qualidade dos ativos, tornando o modelo mais eficiente para Marketplace P2P que modelos baseados em margem de juros (FINRO, 2025).        |
 
 ---
 
-### 10.2. Estratégia para Captação e Retenção de Usuários
+###  10.2. Estratégia para Captação e Retenção de Usuários
 
 Estratégia focada na velocidade da oferta e fidelização pelo BaaS:
 
-#### A. Captação (Tomadores - PMEs)
+####  A. Captação (Tomadores - PMEs)
 
-- Proposta de Valor Central: Decisão de crédito em segundos via Chatbot, resolvendo problema da lentidão (SEBRAE, 2023).
-- Parceria com Adquirência/ERPs: Foco em PMEs que usam soluções de adquirência ou ERPs, com dados lastreáveis. Parceria com Integradores é canal eficiente e de baixo CAC.
+- Proposta de Valor Central: decisão de crédito em segundos via Chatbot, resolvendo a lentidão do mercado (SEBRAE, 2023).  
+- Parceria com Adquirência/ERPs: foco em PMEs que usam soluções com dados lastreáveis.
 
-#### B. Retenção (Tomadores e Investidores)
+####  B. Retenção (Tomadores e Investidores PF)
 
-- Estratégia BaaS (Stickiness): PME incentivada a usar Carteira Digital do Mutual como conta principal para pagamentos e transações B2B, aumentando LTV.
-- Eficiência de Capital (Investidor): Retenção garantida pelo Mecanismo de Ativação P2P e Score de Credor, reduzindo capital parado e aumentando retorno ajustado ao risco.
+- Estratégia BaaS (Stickiness): PME incentivada a usar Carteira Digital como conta principal, aumentando LTV.  
+- Eficiência de Capital (Investidor PF): retenção pelo Mecanismo de Ativação P2P, reduzindo capital parado e aumentando retorno ajustado ao risco.
 
 ---
 
-### 10.3. Parcerias Estratégicas (Aceleração de Crescimento)
+## 10.3. Parcerias Estratégicas (Aceleração de Crescimento)
 
-Mutual alavanca SCD/DTVM para construir ecossistema de parcerias:
+Mutual alavanca SCD/DTVM para construir um ecossistema de parcerias que beneficia o P2P:
 
-- Parceiros de Dados e KYC/Antifraude: Serasa/Big Data para Score Híbrido e empresas antifraude para onboarding seguro.
-- Parceiros de Distribuição (Integradores): Adquirentes e ERPs para oferta contextualizada do crédito embarcado.
-- Parceiros de Liquidez (Investidores Corporativos): Gestoras e Fundos de Investimento em Direitos Creditórios (FIDCs) para pools qualificados com segurança de lastro registrado.
+- Parceiros de Dados e KYC/Antifraude: Serasa/Big Data para Score Híbrido e empresas antifraude para onboarding seguro.  
+- Parceiros de Distribuição (Integradores): Adquirentes e ERPs para oferta contextualizada do crédito embarcado.  
+- Parceiros de Liquidez (Aceleradores): Parceiros Institucionais (Ex: Fundos de Investimento) para pools específicos de ativos, servindo como âncoras de liquidez ou early-adopters, validando segurança da DTVM para o PF.
+
 
 
 ---
@@ -401,17 +464,95 @@ Mutual alavanca SCD/DTVM para construir ecossistema de parcerias:
 
 ## 12. Indicadores de Sucesso & Impacto
 
-- KPIs que medirão o sucesso do projeto (ex: volume de crédito processado, usuários ativos, inadimplência).
-- Impacto esperado para o mercado e para os usuários.
-- Métricas qualitativas e quantitativas.
+O sucesso do Mutual é definido pela Confiança da Pessoa Física (PF) no lastro do ativo e pela Eficiência Transacional para a PME. Nossos indicadores medem o crescimento do marketplace P2P e a qualidade do nosso underwriting.
+
+---
+
+### 12.1. Métricas Quantitativas (KPIs de Crescimento e Qualidade)
+
+Estes KPIs monitorarão a escala, a qualidade do risco e a eficiência do onboarding.
+
+#### A. Crescimento e Volume (Volume Processado)
+
+| KPI                        | Métrica de Sucesso (Target 12 Meses) | Objetivo                                                                                      |
+|----------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------|
+| Volume de Crédito Processado (VCP) | R$ 50 Milhões                     | Mede a escala do negócio e sucesso na atração de capital pulverizado de PFs. Principal indicador de receita. |
+| Número de Investidores PF Ativos | 3.000 CPFs                       | Mede a aceitação do público P2P e a confiança na plataforma.                                   |
+| Ticket Médio por Investidor PF  | R$ 15.000                        | Mede confiança na segurança da DTVM. Ticket alto indica conforto para alocar mais capital.    |
+| Taxa de Ativação de Pledge      | Acima de 95%                    | Mede eficiência do sistema em alocar capital rapidamente, reduzindo capital parado.            |
+
+#### B. Risco e Qualidade (Eficiência da Solução)
+
+| KPI                        | Métrica de Sucesso (Target Máximo) | Objetivo                                                                                      |
+|----------------------------|-----------------------------------|-----------------------------------------------------------------------------------------------|
+| Inadimplência (NPL)        | Abaixo de 3%                      | Mede eficácia do Score Híbrido em selecionar boas PMEs. NPL baixo é essencial para reter investidor PF. |
+| Taxa de Aprovação Imediata | Acima de 70%                     | Mede capacidade de entregar decisão em segundos, validando análise do Score Híbrido.           |
+| Custo de Aquisição por Investidor (CAC) | Abaixo de R$ 150               | Mede eficiência da estratégia de marketing e segurança da DTVM para atrair PFs.                 |
+
+---
+
+### 12.2. Impacto Esperado e Métricas Qualitativas
+
+O Mutual se propõe a ser o P2P mais seguro do mercado, gerando impacto para o Investidor PF e para a PME.
+
+| Área de Impacto         | Descrição Qualitativa                                                                      | Métrica (Resultados para o Usuário)                               |
+|------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Acesso ao Investimento PF | Democratização de ativos de crédito de PMEs com segurança institucional, antes restrita a grandes fundos.   | Engajamento na Central de Conhecimento e taxa de conversão de investidor visitante para ativo. |
+| Confiança do Investidor  | Motor N:M e DTVM eliminam fraude por duplicidade de recebíveis, principal risco para PF.    | Taxa de churn de investidores PF (target baixíssima), refletindo alta satisfação. |
+| PME Inclusiva            | Inclusão de PMEs com bom fluxo, mas score tradicional ruim, oferecendo taxas justas.       | Redução média no CET para PMEs vs bancos tradicionais.            |
+| Eficiência e UX          | Chatbot Educacional e WhatsApp reduzem ansiedade e tempo para usuários.                     | Tempo médio de atendimento do chatbot e NPS do usuário (target >70). |
 
 ---
 
 ## 13. Roadmap & Visão de Futuro
 
-- Cronograma de desenvolvimento e entregas.
-- Marcos importantes do projeto.
-- Visão de longo prazo para o produto e expansão.
+A visão de longo prazo do Mutual é migrar de um Marketplace P2P Web 2 para um Protocolo de Crédito Híbrido Web 3, unindo a segurança regulatória (DTVM/SCD) com a eficiência e liquidez da tokenização.
+
+---
+
+### 13.1. Fase 1: MVP & Validação (Web 2 / Off-Chain)
+
+Esta fase é o foco do projeto atual e tem como objetivo provar a viabilidade regulatória e a eficiência do underwriting.
+
+| Foco               | Tecnologia & Objetivo                                                                              | Entregáveis                                                                                 |
+|--------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| Núcleo SCD/DTVM    | Infraestrutura Asset-Light e Compliance para registro legal do lastro (recebíveis) para Pessoa Física. | Lançamento do Score Híbrido e Motor de Lastro N:M em ambiente Web 2 (APIs QI Tech).          |
+| UX & Canais         | Prova de conceito dos canais de alta usabilidade e educação.                                     | Chatbot para simulação de crédito da PME e Central de Conhecimento para o Investidor.       |
+| Segurança Off-Chain | Implementação de dados jurídicos e de underwriting para cobrança/recuperação.                    | Dados sensíveis (endereço, CNPJ, contratos) ficam Off-Chain, em ambiente seguro (data lake). |
+
+---
+
+### 13.2. Fase 2: Expansão e Otimização (Web 2 Avançado)
+
+Foco na escalabilidade do modelo de Performance Fee e integração com parceiros.
+
+- Expansão da Parceria: Integração com mais ERPs e Adquirentes para aumentar volume de PMEs e captação de dados para Score Híbrido.  
+- Otimização de Funding: Regras de staking e reinvestimento automático para Investidor PF, aumentando ticket médio e LTV.  
+- Preparação para Web 3: Mapeamento dos dados de lastro e crédito para tokenização futura.
+
+---
+
+### 13.3. Fase 3: Visão de Futuro (Web 3 / Híbrido e Tokenizado)
+
+A transição para Web 3 é o diferencial que tornará Mutual referência em ativos tokenizados regulamentados.
+
+| Inovação Web 3               | Valor Agregado                                                                            | Impacto Estratégico                                                                          |
+|-----------------------------|------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| Tokenização de Pools (RWA)  | Direitos sobre recebíveis tokenizados em pools.                                         | Liquidez imediata; Investidor PF negocia participação a qualquer momento (mercado secundário).|
+| Registro Híbrido (DTVM + Blockchain) | Contrato fiduciário registrado na DTVM e token na Blockchain.                      | Segurança inédita: rigor legal aliado à imutabilidade e rastreabilidade blockchain.          |
+| Transações On-Chain e Staking| Transferências e pagamentos via wallet Blockchain com taxas menores.                   | Otimização de custos e rendimentos competitivos para investidor e PME.                       |
+| Rastreabilidade             | Histórico público completo de transferências e propriedade dos tokens.                  | Transparência máxima, validando segurança prometida para investidor PF.                      |
+
+---
+
+### 13.4. Manutenção de Segurança Off-Chain
+
+Coerência regulatória mantida:
+
+- Dados para cobrança legal (processo judicial em default) armazenados em servidores Off-Chain seguros e regulamentados, respeitando a LGPD.  
+- O token representa o direito sobre o ativo (recebível), mas responsabilidade legal pelos dados de cobrança permanece no ambiente tradicional.
+
+---
 
 ---
 
@@ -465,6 +606,11 @@ SEBRAE. Crédito negado: apenas 3 de cada 10 empresários que buscam empréstimo
 
 WEALTH MONEY. P2P Lending vs. crédito bancário: entenda as diferenças para quem investe e para quem precisa de empréstimo. São Paulo, 2025. Disponível em: https://wealthmoney.com.br/p2p-lending-vs-credito-bancario-entenda-as-diferencas-para-quem-investe-e-para-quem-precisa-de-emprestimo/. Acesso em: 29 set. 2025.
 
+- BANCO CENTRAL DO BRASIL. Boxe 5 – Fintechs de empréstimos P2P: características e aspectos competitivos. Relatório de Economia Bancária – 2022.
+
+- MCKINSEY & COMPANY. O novo normal do crédito para PME: desafios, tendências e inovações. 2022.
+
+- SEBRAE. Crédito negado: apenas 3 de cada 10 empresários que buscam empréstimo têm sucesso. 2023.
 
 ---
 
