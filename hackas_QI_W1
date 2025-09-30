@@ -76,31 +76,35 @@ O Mutual inova ao utilizar tecnologia como um SCD, resolvendo os problemas de le
 
 O Mutual atende a um marketplace de duas pontas: a PME Tomadora de Crédito (demandante de capital) e o Investidor Qualificado (provedor de capital).
 
+---
+
 ### 3.1. Público-Alvo Principal: PMEs Lastreadas (Tomador de Crédito)
 
 Focamos em PMEs de Varejo e Serviços com faturamento que exige agilidade e que possuem recebíveis futuros (cartão de crédito, contratos) como garantia.
 
-#### Persona 1: Ana Lúcia – A PME Digital (Tomadora)
+#### Persona 1: Ana Lúcia - A PME Digital (Tomadora)
 
-| Tópico          | Detalhe                                                                                                         |
-|-----------------|----------------------------------------------------------------------------------------------------------------|
-| Quem é?         | Dona de um e-commerce de Moda (12 funcionários). Faturamento anual de R$ 1,5 milhão. Vendas concentradas em cartão de crédito e marketplaces. |
-| Motivação       | Aproveitar oportunidades de compra de estoque (margem). Precisa de capital de giro hoje para não perder o preço de atacado de amanhã. |
-| Dores           | 1. Lentidão do Banco: Processo de 15 dias para análise de crédito. <br> 2. Alto Custo: Taxas injustas para empresas digitais com fluxo de caixa sólido. |
-| Como o Mutual Ajuda | 1. Decisão em Segundos: Solicitação via Chatbot/WhatsApp com aprovação quase instantânea (Tópico 2.3). <br> 2. Score Híbrido: Valoriza seu fluxo de recebíveis (lastro) para taxas justas. |
+| Tópico        | Detalhe                                                                                     |
+|---------------|--------------------------------------------------------------------------------------------|
+| Quem é?       | Dona de um e-commerce de Moda (12 funcionários). Faturamento anual de R$ 1,5 milhão. Vendas concentradas em cartão de crédito e marketplaces. |
+| Motivação     | Aproveitar oportunidades de compra de estoque, necessitando capital de giro imediato para não perder o preço de atacado.                   |
+| Dores         | 1. Lentidão do Banco: Processo de 15 dias para análise de crédito. <br> 2. Alto Custo: Taxas injustas para empresas digitais com fluxo sólido. |
+| Como o Mutual Ajuda | 1. Decisão em Segundos: Solicitação via Chatbot/WhatsApp com aprovação quase instantânea. <br> 2. Score Híbrido: Valoriza o fluxo de recebíveis (lastro) para garantir taxas justas. |
+
+---
 
 ### 3.2. Público-Alvo Secundário: Investidores (Credores)
 
 Miramos em indivíduos e instituições que buscam ativos de crédito de alta qualidade, transparência e eficiência de capital.
 
-#### Persona 2: Ricardo – O Alocador Institucional (Credor)
+#### Persona 2: Ricardo - O Alocador Institucional (Credor)
 
-| Tópico          | Detalhe                                                                                                                                            |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Quem é?         | Gestor de Risco em uma Gestora de Patrimônio Privado (Assets under Management: R$ 500 milhões). Busca alocar capital em crédito privado.             |
-| Motivação       | Retorno Ajustado ao Risco: Obter rentabilidade superior à renda fixa tradicional, com segurança de lastro e diversificação de default.               |
-| Dores           | 1. Opaquidade de FIDCs: Altas taxas de administração e falta de visibilidade sobre os ativos reais. <br> 2. Inércia de Capital: O capital fica parado (pledge inativo) esperando a formalização dos empréstimos. |
-| Como o Mutual Ajuda | 1. Transparência & Taxa Fixa: Paga apenas uma taxa administrativa fixa sobre a alocação, garantindo maior yield líquido (Tópico 10). <br> 2. Lastro Certificado: A garantia do recebível registrado (Registradora) e o underwriting rigoroso oferecem segurança jurídica e técnica. |
+| Tópico        | Detalhe                                                                                     |
+|---------------|--------------------------------------------------------------------------------------------|
+| Quem é?       | Gestor de Risco em uma Gestora de Patrimônio Privado (Assets under Management: R$ 500 milhões). Busca alocar capital em crédito privado. |
+| Motivação     | Retorno Ajustado ao Risco: Rentabilidade superior à renda fixa tradicional, segurança de lastro e diversificação de default.                |
+| Dores         | 1. Opaquidade de FIDCs: Altas taxas de administração e falta de visibilidade dos ativos reais.<br> 2. Inércia de Capital: Capital parado (pledge inativo) esperando formalização dos empréstimos. |
+| Como o Mutual Ajuda | 1. Transparência & Performance: Paga apenas uma Taxa Administrativa Fixa e uma Taxa de Performance sobre o lucro, alinhando incentivos.<br> 2. Lastro Certificado: Garantia do recebível registrado (Registradora/DTVM) e underwriting rigoroso com segurança jurídica e técnica. |
 
 
 ---
