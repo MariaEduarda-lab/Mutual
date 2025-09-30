@@ -460,6 +460,17 @@ Mutual alavanca SCD/DTVM para construir um ecossistema de parcerias que benefici
 - Parcerias e canais de distribuição.
 - Planos para escalabilidade e crescimento.
 
+
+o que vc sugeriria?
+
+pensei primerio em fazer um tam - sam -som
+
+posteriormente apresentar a solução como "um novo braço" da qitech, atingindo uma população pouco priorizada ( ee explicar por que )
+
+apresentar as taxas atuais de empréstimo (mostrando que a nossa plataforma permite taxas variadas, e usar a ideias de pools)
+
+mostrar que o banco apenas se beneficia e aqui tem benefício plurilateral
+
 ---
 
 ## 12. Indicadores de Sucesso & Impacto
