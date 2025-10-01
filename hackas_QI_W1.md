@@ -18,12 +18,11 @@
 7. [Arquitetura Técnica](#7-arquitetura-técnica)  
 8. [Diferenciais e Inovação](#8-diferenciais-e-inovação)  
 9. [Funcionalidades & MVP](#9-funcionalidades--mvp)  
-10. [Modelo de Negócios & Monetização](#10-modelo-de-negócios--monetização)  
-11. [Estratégia de Go-to-Market](#11-estratégia-de-go-to-market)  
-12. [Indicadores de Sucesso & Impacto](#12-indicadores-de-sucesso--impacto)  
-13. [Roadmap & Visão de Futuro](#13-roadmap--visão-de-futuro)  
-14. [Equipe e Papéis](#14-equipe-e-papéis)  
-15. [Referências & Apêndices](#15-referências--apêndices)
+10. [Modelo de Negócios & Monetização](#10-modelo-de-negócios--monetização)    
+11. [Indicadores de Sucesso & Impacto](#11-indicadores-de-sucesso--impacto)  
+12. [Roadmap & Visão de Futuro](#12-roadmap--visão-de-futuro)  
+13. [Equipe e Papéis](#13-equipe-e-papéis)  
+14. [Referências & Apêndices](#14-referências--apêndices)
 
 ---
 
@@ -316,14 +315,6 @@ O modelo é Taxa de Performance e Administração (Fee-Based), alinhando o suces
 
 Este modelo garante escalabilidade e atrai Investidores, pois o Mutual só é remunerado de forma significativa se entregar yield superior ao mercado.
 
-[1](https://blog.genialinvestimentos.com.br/peer-to-peer/)
-[2](https://www.youtube.com/watch?v=ilq3ACWS6FE)
-[3](https://pt.linkedin.com/pulse/empr%C3%A9stimo-p2p-o-que-voc%C3%AA-precisa-saber-antes-de-ed-edu-giansante)
-[4](https://www.youtube.com/watch?v=3_2JGIkK5Wk)
-[5](https://www.youtube.com/watch?v=_gP9j1UKfl8)
-[6](https://www.youtube.com/watch?v=g2JwoA9VQ3I)
-[7](https://www.youtube.com/watch?v=uJTuaVOFmac)
-[8](https://wealthmoney.com.br/como-funciona-o-p2p-lending-entenda-antes-de-investir/)
 
 ---
 
@@ -628,38 +619,19 @@ Mutual alavanca SCD/DTVM para construir um ecossistema de parcerias que benefici
 
 ---
 
-## 11. Estratégia de Go-to-Market
-
-- Ações iniciais para lançamento e validação.
-- Parcerias e canais de distribuição.
-- Planos para escalabilidade e crescimento.
-
-
-o que vc sugeriria?
-
-pensei primerio em fazer um tam - sam -som
-
-posteriormente apresentar a solução como "um novo braço" da qitech, atingindo uma população pouco priorizada ( ee explicar por que )
-
-apresentar as taxas atuais de empréstimo (mostrando que a nossa plataforma permite taxas variadas, e usar a ideias de pools)
-
-mostrar que o banco apenas se beneficia e aqui tem benefício plurilateral
-
----
-
-## 12. Indicadores de Sucesso & Impacto
+## 11. Indicadores de Sucesso & Impacto
 
 O sucesso do Mutual é definido pela Confiança da Pessoa Física (PF) no lastro do ativo e pela Eficiência Transacional para a PME. Nossos indicadores medem o crescimento do marketplace P2P e a qualidade do nosso underwriting.
 
 ---
 
-### 12.1. Métricas Quantitativas (KPIs de Crescimento e Qualidade)
+### 11.1. Métricas Quantitativas (KPIs de Crescimento e Qualidade)
 
 Estes KPIs monitorarão a escala, a qualidade do risco e a eficiência do onboarding.
 
 #### A. Crescimento e Volume (Volume Processado)
 
-| KPI                        | Métrica de Sucesso (Target 12 Meses) | Objetivo                                                                                      |
+| KPI                        | Métrica de Sucesso (Target 11 Meses) | Objetivo                                                                                      |
 |----------------------------|-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Volume de Crédito Processado (VCP) | R$ 50 Milhões                     | Mede a escala do negócio e sucesso na atração de capital pulverizado de PFs. Principal indicador de receita. |
 | Número de Investidores PF Ativos | 3.000 CPFs                       | Mede a aceitação do público P2P e a confiança na plataforma.                                   |
@@ -676,7 +648,7 @@ Estes KPIs monitorarão a escala, a qualidade do risco e a eficiência do onboar
 
 ---
 
-### 12.2. Impacto Esperado e Métricas Qualitativas
+### 11.2. Impacto Esperado e Métricas Qualitativas
 
 O Mutual se propõe a ser o P2P mais seguro do mercado, gerando impacto para o Investidor PF e para a PME.
 
@@ -689,13 +661,13 @@ O Mutual se propõe a ser o P2P mais seguro do mercado, gerando impacto para o I
 
 ---
 
-## 13. Roadmap & Visão de Futuro
+## 12. Roadmap & Visão de Futuro
 
 A visão de longo prazo do Mutual é migrar de um Marketplace P2P Web 2 para um Protocolo de Crédito Híbrido Web 3, unindo a segurança regulatória (DTVM/SCD) com a eficiência e liquidez da tokenização.
 
 ---
 
-### 13.1. Fase 1: MVP & Validação (Web 2 / Off-Chain)
+### 12.1. Fase 1: MVP & Validação (Web 2 / Off-Chain)
 
 Esta fase é o foco do projeto atual e tem como objetivo provar a viabilidade regulatória e a eficiência do underwriting.
 
@@ -707,7 +679,7 @@ Esta fase é o foco do projeto atual e tem como objetivo provar a viabilidade re
 
 ---
 
-### 13.2. Fase 2: Expansão e Otimização (Web 2 Avançado)
+### 12.2. Fase 2: Expansão e Otimização (Web 2 Avançado)
 
 Foco na escalabilidade do modelo de Performance Fee e integração com parceiros.
 
@@ -717,7 +689,7 @@ Foco na escalabilidade do modelo de Performance Fee e integração com parceiros
 
 ---
 
-### 13.3. Fase 3: Visão de Futuro (Web 3 / Híbrido e Tokenizado)
+### 12.3. Fase 3: Visão de Futuro (Web 3 / Híbrido e Tokenizado)
 
 A transição para Web 3 é o diferencial que tornará Mutual referência em ativos tokenizados regulamentados.
 
@@ -730,7 +702,7 @@ A transição para Web 3 é o diferencial que tornará Mutual referência em ati
 
 ---
 
-### 13.4. Manutenção de Segurança Off-Chain
+### 12.4. Manutenção de Segurança Off-Chain
 
 Coerência regulatória mantida:
 
@@ -741,7 +713,7 @@ Coerência regulatória mantida:
 
 ---
 
-## 14. Equipe e Papéis
+## 13. Equipe e Papéis
 
 | Nome | Papel | Competências Principais |
 |-------|-------|----------------------|
@@ -753,7 +725,7 @@ Coerência regulatória mantida:
 
 ---
 
-## 15. Referências & Apêndices
+## 14. Referências & Apêndices
 
 BCB. Banco Central do Brasil. Fintechs de empréstimos P2P: características e aspectos competitivos. Relatório de Economia Bancária, Boxe 5. Brasília, 2022. Disponível em: https://www.fecomercio.com.br/noticia/sinais-de-alerta-a-tomada-de-credito-pelas-empresas.
 
@@ -796,6 +768,15 @@ WEALTH MONEY. P2P Lending vs. crédito bancário: entenda as diferenças para qu
 - MCKINSEY & COMPANY. O novo normal do crédito para PME: desafios, tendências e inovações. 2022.
 
 - SEBRAE. Crédito negado: apenas 3 de cada 10 empresários que buscam empréstimo têm sucesso. 2023.
+
+[1](https://blog.genialinvestimentos.com.br/peer-to-peer/)
+[2](https://www.youtube.com/watch?v=ilq3ACWS6FE)
+[3](https://pt.linkedin.com/pulse/empr%C3%A9stimo-p2p-o-que-voc%C3%AA-precisa-saber-antes-de-ed-edu-giansante)
+[4](https://www.youtube.com/watch?v=3_2JGIkK5Wk)
+[5](https://www.youtube.com/watch?v=_gP9j1UKfl8)
+[6](https://www.youtube.com/watch?v=g2JwoA9VQ3I)
+[7](https://www.youtube.com/watch?v=uJTuaVOFmac)
+[8](https://wealthmoney.com.br/como-funciona-o-p2p-lending-entenda-antes-de-investir/)
 
 ---
 
