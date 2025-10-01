@@ -216,6 +216,10 @@ A decisão estratégica do MVP é focar no que só a QI Tech oferece: a Barreira
 
 ### 6.2. Passo a Passo da Jornada do Tomador (Fluxo da PME)
 
+A principal funcionalidade do MVP para o tomador (PME) está na jornada simples e integrada: criar sua conta, cadastrar os recebíveis, receber um score gerado pelo modelo preditivo e, a partir disso, solicitar um empréstimo. Todo o processo é facilitado pela comunicação com o Agent, que realiza o match ideal com um credor disponível na plataforma.
+
+![Imagem Fluxo PME](assets/FluxoPME.png)
+
 A jornada prioriza a Decisão Rápida e a Captação de Documentos via Chatbot.
 
 | Passo | Ação da PME (Tomador) | Interação e Tecnologia (Mutual) |
