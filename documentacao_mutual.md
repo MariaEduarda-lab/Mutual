@@ -208,6 +208,10 @@ A decisão estratégica do MVP é focar no que só a QI Tech oferece: a Barreira
 
 ### 6.2. Passo a Passo da Jornada do Tomador (Fluxo da PME)
 
+A principal funcionalidade do MVP para o tomador (PME) está na jornada simples e integrada: criar sua conta, cadastrar os recebíveis, receber um score gerado pelo modelo preditivo e, a partir disso, solicitar um empréstimo. Todo o processo é facilitado pela comunicação com o Agent, que realiza o match ideal com um credor disponível na plataforma.
+
+<img src="./assets/FluxoPME.png" alt="Fluxo da Jornada do Tomador (PME)" style="max-width: 100%; height: auto;" >
+
 A jornada prioriza a Decisão Rápida e a Captação de Documentos via Chatbot.
 
 | Passo | Ação da PME (Tomador) | Interação e Tecnologia (Mutual) |
@@ -277,6 +281,18 @@ O WhatsApp será o canal secundário de acompanhamento para ambos os usuários, 
 ### 6.5. Estrutura das Pools (Onde o Risco Encontra a Liquidez)
 
 A estrutura das Pools é o mecanismo que pulveriza o risco (Tomador) e permite a autonomia (Credor), garantindo liquidez e segurança para todos os perfis.
+
+Pool Individual: funciona como a porta de entrada para credores mais arrojados, que podem definir seus próprios termos de empréstimo, estabelecer regras de alocação de risco e escolher diretamente as PMEs que desejam apoiar. Nesse modelo, não há necessidade de manter o capital parado na plataforma, e o credor tem autonomia para aceitar ou recusar solicitações de acordo com o score do tomador e suas próprias políticas, sendo penalizado em caso de aceite sem aporte.
+
+<img src="./assets/FluxoIndividual.png" alt="Fluxo da Jornada do Tomador (PME)" style="max-width: 100%; height: auto;" >
+
+Teams Pool: que amplia a capacidade de crédito ao permitir que credores se unam para atender tomadores recorrentes ou de maior porte, compartilhando risco entre os participantes. Essa modalidade mantém a lógica de solicitação sem depósito prévio, mas possibilita condições mais competitivas ao diluir o risco, preservando a governança individual ou conjunta sobre as decisões de empréstimo.
+
+<img src="./assets/FluxoTeams.png" alt="Fluxo da Jornada do Tomador (PME)" style="max-width: 100%; height: auto;" >
+
+Corporate Pool: representa a fase de maturidade, permitindo a emissão de cotas que democratizam o acesso ao investimento e aumentam a liquidez do sistema. Com políticas mais estruturadas de benchmarks, critérios de elegibilidade de PMEs e governança definida por gestores ou votação dos cotistas, esse modelo possibilita a entrada de novos investidores a partir de valores reduzidos, inclusive com potencial de tokenização dos ativos para otimizar circulação e registro.
+
+<img src="./assets/FluxoCorporate.png" alt="Fluxo da Jornada do Tomador (PME)" style="max-width: 100%; height: auto;" >
 
 | Característica | Pool Individual | Teams Pool | Corporate Pool |
 |---|---|---|---|
