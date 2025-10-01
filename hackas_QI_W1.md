@@ -290,6 +290,18 @@ O WhatsApp será o canal secundário de acompanhamento para ambos os usuários, 
 
 A estrutura das Pools é o mecanismo que pulveriza o risco (Tomador) e permite a autonomia (Credor), garantindo liquidez e segurança para todos os perfis.
 
+Pool Individual: funciona como a porta de entrada para credores mais arrojados, que podem definir seus próprios termos de empréstimo, estabelecer regras de alocação de risco e escolher diretamente as PMEs que desejam apoiar. Nesse modelo, não há necessidade de manter o capital parado na plataforma, e o credor tem autonomia para aceitar ou recusar solicitações de acordo com o score do tomador e suas próprias políticas, sendo penalizado em caso de aceite sem aporte.
+
+![Imagem Fluxo PME](assets/FluxoIndividual.png)
+
+Teams Pool: que amplia a capacidade de crédito ao permitir que credores se unam para atender tomadores recorrentes ou de maior porte, compartilhando risco entre os participantes. Essa modalidade mantém a lógica de solicitação sem depósito prévio, mas possibilita condições mais competitivas ao diluir o risco, preservando a governança individual ou conjunta sobre as decisões de empréstimo.
+
+![Imagem Fluxo PME](assets/FluxoTeams.png)
+
+Corporate Pool: representa a fase de maturidade, permitindo a emissão de cotas que democratizam o acesso ao investimento e aumentam a liquidez do sistema. Com políticas mais estruturadas de benchmarks, critérios de elegibilidade de PMEs e governança definida por gestores ou votação dos cotistas, esse modelo possibilita a entrada de novos investidores a partir de valores reduzidos, inclusive com potencial de tokenização dos ativos para otimizar circulação e registro.
+
+![Imagem Fluxo PME](assets/FluxoCorporate.png)
+
 | Característica | Pool Individual | Teams Pool | Corporate Pool |
 |---|---|---|---|
 | Perfil do Credor | Mais Arrojado, Autonomia Total | Colaborativo, Busca Dividir Riscos | Institucional/Coletivo, Busca Escala e Segurança |
