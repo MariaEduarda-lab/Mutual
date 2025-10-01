@@ -1,12 +1,3 @@
-# 🌟 Hackathon QI Tech & W1 - Projeto P2P de Crédito
-
-**Nome do Projeto**: [Insira o nome do projeto]  
-**Equipe**: [Nome da equipe]  
-**Hackathon**: QI Tech Inovacamp 2025  
-**Data da Submissão**: [Data]
-
----
-
 ## 🔗 Sumário
 
 1. [Resumo Executivo & Introdução](#1-resumo-executivo--introdução)  
@@ -130,15 +121,15 @@ Os concorrentes do Mutual se dividem em dois grupos, mas a solução se diferenc
 | Segurança do Lastro | Motor N:M + Custódia/Registradora. Segurança máxima via APIs da QI Tech | Foco na análise de crédito; gestão de lastro menos flexível | Alto rigor, mas pouca agilidade |
 | Velocidade da Decisão | Instantânea (Score Híbrido, decisão em segundos) | Rápida (horas a até 2 dias) | Lenta (dias ou semanas) |
 
-## 4.3. Diferenciais e Inovação
+## 4.3. Diferenciais e Inovação (Corrigido para P2P Pessoa Física)
 
-O Mutual é inovador e altamente competitivo pois resolve os principais pontos de dor do mercado (lentidão, opacidade, risco de lastro) com o poder tecnológico da QI Tech:
+O Mutual é inovador e altamente competitivo, pois resolve os principais pontos de dor do mercado (lentidão, opacidade, risco de lastro) utilizando a robustez tecnológica da QI Tech:
 
-| Diferencial do Mutual | Por que é Inovador | Vantagem Estratégica |
-|---|---|---|
-| Motor de Lastro N:M e SCD/DTVM | Segurança incontestável do ativo: integração com Custódia/Registradora da QI Tech elimina risco de duplicidade | Atração de Investidores Qualificados (FIDCs) em grande volume, garantindo funding para a plataforma |
-| Decisão Imediata via Chatbot | Experiência do Usuário (UX) inovadora: transforma a burocracia do crédito em conversa de minutos | Resolve o problema da lentidão e alta taxa de negação de crédito para PMEs (SEBRAE, 2023) |
-| Monetização de Performance | Alinhamento de Incentivos: Taxa de Performance sobre o Lucro garante que o Mutual só ganhe se o Investidor tiver yield superior | Transparência, atrai investidores sofisticados |
+| Diferencial do Mutual                  | Por que é Inovador                                                                 | Vantagem Estratégica                                                                                         |
+|----------------------------------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Motor de Lastro N:M e SCD/DTVM         | Segurança incontestável do ativo: A integração com a Custódia/Registradora da QI Tech elimina o risco de duplicidade de recebíveis. | Atração de Capital PF: Oferece ao Investidor Pessoa Física (PF) a segurança jurídica de nível institucional, incentivando alto Ticket Médio e confiança no ativo. |
+| Decisão Imediata via Chatbot           | Experiência do Usuário (UX) inovadora: Transforma a burocracia do crédito em uma conversa de minutos via Chatbot (UX Onipresente).   | Resolve o problema da lentidão e da alta taxa de negação de crédito para PMEs (SEBRAE, 2023), garantindo a velocidade como fator de aquisição.             |
+| Monetização de Performance             | Alinhamento de Incentivos: A Taxa de Performance sobre o Lucro garante que o Mutual só ganhe se o Investidor PF tiver yield superior. | Transparência e Confiança: Atrai investidores sofisticados e demonstra o compromisso da plataforma com a qualidade do underwriting (Score Híbrido).         |
 
 ---
 
@@ -161,13 +152,14 @@ As forças são os diferenciais controláveis que garantem a execução e compet
 
 ### 5.2. Fraquezas (Weaknesses) - Fatores Internos Negativos
 
-São os desafios internos que o Mutual deve gerenciar e mitigar.
+São os desafios internos que o Mutual deve gerenciar e mitigar, concentrados na gestão de risco e na captação inicial de capital de terceiros (Pessoas Físicas).
 
-| Fraqueza                       | Estratégia de Mitigação                                                                                                                                                       |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dependência Inicial de Funding | Dependência de capital de terceiros (Credores). Mitigação: foco na Pool Corporativa para atrair FIDCs e uso do Score de Credor para garantir confiabilidade do funding.        |
-| Custo de Aquisição (CAC) de PMEs | Capturar PMEs com fluxo lastreável pode ser caro no início. Mitigação: UX Onipresente (Chatbot) e proposta de valor do Score Híbrido reduzem drasticamente o custo de conversão. |
-| Risco de Inadimplência do Ativo | Qualidade do Score Híbrido e inadimplência afetam confiança e receita da taxa. Mitigação: Motor N:M e DTVM garantem posse do lastro em caso de default, cobrindo o risco do Credor.  |
+| Fraqueza                          | Estratégia de Mitigação (Foco no PF)                                                                                                                                |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dependência Inicial de Funding     | Dependência de capital de terceiros (Investidores PF). Mitigação: Foco na segurança jurídica DTVM/Custódia para aumentar a confiança do PF, incentivando Ticket Médio maior e reinvestimento (staking) automático (Fase 2 do Roadmap) para garantir a estabilidade do funding. |
+| Custo de Aquisição (CAC) de PMEs   | Capturar PMEs com fluxo lastreável pode ser caro no início. Mitigação: UX Onipresente (Chatbot) e proposta de valor do Score Híbrido reduzem drasticamente o custo de conversão. Parceria com ERPs e Adquirentes atua como canal eficiente e de baixo CAC. |
+| Risco de Inadimplência do Ativo    | Qualidade do Score Híbrido e inadimplência afetam a confiança e a receita da taxa. Mitigação: Motor N:M e DTVM garantem a posse e rastreabilidade legal do lastro em caso de default, cobrindo o risco do Credor PF e mantendo a atratividade do ativo.  |
+
 
 ---
 
@@ -531,16 +523,15 @@ O valor do Mutual é criado ao combinar o rigor de uma instituição financeira 
 
 ---
 
-### 8.3. Atendimento aos Requisitos Críticos do Mercado
+### 8.3 Atendimento aos Requisitos Críticos do Mercado (Revisado)
 
-A arquitetura do Mutual foi desenhada para atender diretamente aos principais desafios do ecossistema financeiro regulado.
+A arquitetura do Mutual foi desenhada para atender diretamente aos principais desafios do ecossistema financeiro regulado, transformando a complexidade do Compliance em um fator de atração e confiança para o Investidor Pessoa Física.
 
-| Requisito         | Solução Implementada pelo Mutual                                                                                                  |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Escalabilidade    | Arquitetura Asset-Light (SCD): Mutual não precisa alocar capital próprio; escala conforme volume de transações e funding cresce. |
-| Segurança e Risco | Lastro N:M + DTVM: registro legal dos recebíveis na Custódia da DTVM da QI Tech minimiza risco de fraude e duplicidade técnica e jurídica. |
-| Compliance e Regulamentação | Infraestrutura QI Tech (SCD/DTVM): operação dentro das resoluções do Banco Central, garantindo conformidade para transações com Credores Institucionais (FIDCs).           |
-
+| Requisito            | Solução Implementada pelo Mutual                                                                                              |
+|----------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Escalabilidade       | Arquitetura Asset-Light (SCD): Mutual não precisa alocar capital próprio; a plataforma escala conforme volume de transações e crescimento do funding de Pessoas Físicas. |
+| Segurança e Risco     | Lastro N:M + DTVM: Registro legal dos recebíveis na Custódia da DTVM da QI Tech minimiza riscos de fraude e duplicidade, garantindo integridade do ativo para o Investidor PF. |
+| Compliance e Regulamentação | Infraestrutura QI Tech (SCD/DTVM): Operação alinhada às resoluções do Banco Central, assegurando conformidade total para transações entre Pessoas (P2P).                  |
 
 ---
 
@@ -711,17 +702,14 @@ Coerência regulatória mantida:
 
 ---
 
----
-
 ## 13. Equipe e Papéis
 
 | Nome | Papel | Competências Principais |
 |-------|-------|----------------------|
-| [Nome1] | Líder Técnico | [Ex: Backend, APIs, segurança] |
-| [Nome2] | Desenvolvedor Frontend | [Ex: Mobile, UX/UI] |
-| [Nome3] | Analista de Negócios | [Ex: Mercado financeiro, crédito] |
+| Gabriel | Líder Técnico | Backend, APIs, segurança, design de arquitetura |
+| Pedro Jorge | Desenvolvedor Frontend | Web, UX/UI |
+| Maria Edaurda | Analista de Negócios | business |
 
-- Pequenas descrições ou experiências relevantes da equipe.
 
 ---
 
