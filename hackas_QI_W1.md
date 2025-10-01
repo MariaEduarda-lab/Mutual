@@ -329,10 +329,184 @@ Este modelo garante escalabilidade e atrai Investidores, pois o Mutual só é re
 
 ## 7. Arquitetura Técnica
 
-- Diagrama simplificado (inserir link ou referência).
-- Tecnologias escolhidas (liberdade para justificar as escolhas).
-- Integração com APIs da QI Tech e outros recursos.
-- Componentes e módulos principais: carteira digital, motor de crédito, antifraude, interface usuário.
+###  Arquitetura 
+
+Para o Mutual, um marketplace P2P de crédito lastreado em recebíveis para PMEs, a arquitetura proposta tem como objetivo ser simples e escalável. 
+
+Criaremos uma aplicação web responsiva, backend para lógica de negócio e integrações externas. Partindo da filosofia KISS (Keep It Simple, Stupid) que diz que design de sistemas devem ser simples ao máximo, evitando complexidade desnecessária, propomos uma estrutura monolítica inicial, com possibilidade de evoluir para microsserviços.
+
+A arquitetura segue o padrão em camadas: User Layer (interface), Application Layer (lógica), Data Layer (armazenamento) e External Integrations (APIs QI Tech e outras). Propomos o uso de tecnologias acessíveis: Nextjs para frontend, Node.js ou Python para backend, e deployment em cloud, pois tais tecnologias são amplamente adotadas, possuem vasta documentação e comunidade ativa, facilitando o desenvolvimento rápido e a manutenção.
+
+
+<img src="./assets/arquitetura.png" alt="Architecture Diagram" style="max-width: 100%; height: auto;">
+
+
+
+### Implementação do RAG (Retrieval-Augmented Generation)
+
+<img src="./assets/rag.png" alt="RAG Diagram" style="max-width: 100%; height: auto;">
+
+A implementação do RAG (Retrieval-Augmented Generation) na plataforma CreditFlow é uma inovação chave para otimizar a experiência do usuário, especialmente para Pequenas e Médias Empresas (PMEs) que buscam crédito. O RAG integra recuperação de informações baseada em vetores com modelos de linguagem generativos (LLMs), permitindo que o sistema processe consultas naturais das PMEs sobre suas necessidades de empréstimo. Por exemplo, uma PME pode descrever via chatbot ou WhatsApp: "Preciso de R$50.000 para comprar estoque, baseado nos meus recebíveis de cartões do último mês." O RAG então busca na base de dados interna (como histórico de transações, recebíveis e scores de crédito) para recuperar contextos relevantes e gerar propostas personalizadas de empréstimo, integrando-se ao motor de score híbrido e ao underwriting instantâneo.
+
+**Componentes do RAG**
+1. **Base de Conhecimento (Vector Database):** Uma base de dados vetorial (ex.: Pinecone, FAISS ou PostgreSQL com pgvector) que armazena embeddings de dados estruturados e não-estruturados da PME, incluindo históricos de recebíveis (da tabela receivable), scores de crédito (da tabela company), empréstimos passados (da tabela loan) e perfis de personas (como fluxos de caixa e necessidades sazonais). 
+2. **Mecanismo de Recuperação (Embedding Model e Similarity Search):** Utiliza modelos de embedding como Sentence Transformers ou OpenAI Embeddings para converter consultas da PME (descrições textuais de necessidades de empréstimo) em vetores. A busca de similaridade (ex.: cosine similarity ou k-NN) recupera os top-k itens relevantes da base vetorial, filtrando por critérios como data de vencimento de recebíveis ou score de risco. Isso permite buscas semânticas avançadas, indo além de keywords para entender intenções como "capital de giro para expansão" e mapear para dados históricos da PME.
+3. **Modelo de Linguagem (LLM):** Um LLM fine-tuned (ex.: Grok, GPT-4 ou Llama) que recebe o contexto recuperado e gera respostas personalizadas. Para uma PME descrevendo suas necessidades, o LLM pode outputar: "Baseado nos seus R\$100.000 em recebíveis pendentes (recuperados da base), você qualifica para um empréstimo de R$60.000 a 1,5% a.m., com lastro N:M ativado." 
+4. **Interface de Usuário (Chatbot):** A PME descreve suas necessidades via interfaces conversacionais, tornando o processo intuitivo e acessível. O RAG processa a entrada natural, recupera dados da base (ex.: via query embedding) e retorna respostas em linguagem simples, com opções de aprovação imediata.
+5. **Segurança e Conformidade:** Todos os dados recuperados respeitam LGPD via anonimização de embeddings e consentimento explícito. Proteções contra prompt injection e rate limiting evitam abusos, enquanto auditorias garantem que respostas baseadas em RAG não violem regras regulatórias do BCB.
+
+
+**Vantagens na utilizacao da arquitetura RAG**
+
+1. **Eficiência Operacional:** Automatiza o underwriting inicial, reduzindo tempo de decisão de dias para segundos, alinhando-se ao diferencial de "decisão imediata" do CreditFlow. Buscas semânticas lidam com variações linguísticas (ex.: "capital para estoque" vs. "funding para compras"), melhorando a UX para usuários não-técnicos.
+2. **Escalabilidade e Custo-Efetividade:** Vector databases permitem buscas rápidas em grandes volumes de dados sem queries SQL caras. Para uma plataforma como CreditFlow, isso escala com o crescimento de PMEs sem aumentar custos lineares, suportando milhares de consultas diárias.
+3. **Segurança e Compliance:** Embeddings anonimizados e recuperação controlada minimizam riscos de vazamento de dados sensíveis, atendendo LGPD e regulamentações do BCB para fintechs P2P.
+
+
+### 📄 Estrutura do Banco de Dados
+
+<img src="./assets/mer.png" alt="ERD Diagram" style="max-width: 100%; height: auto;">
+
+Para suportar a solução de empréstimo P2P para PMEs, o banco de dados foi projetado para armazenar informações essenciais sobre empresas, sócios, endereços, contatos, usuários, empréstimos, recebíveis e investidores. A seguir está a estrutura detalhada do banco de dados com as tabelas principais e seus respectivos campos.
+
+## **Tabela company**  
+Guarda as informações cadastrais e financeiras principais da empresa.  
+- `id` → PK  
+- `user_id` → FK → user (dono/representante da empresa no sistema)  
+- `address_id` → FK → address (endereço principal da empresa)  
+- `corporate_name` → Razão social da empresa  
+- `trade_name` → Nome fantasia  
+- `cnpj` → Cadastro Nacional de Pessoa Jurídica  
+- `legal_nature` → Natureza jurídica (LTDA, SA, EI, etc.)  
+- `company_size` → Porte da empresa (micro, small, medium)  
+- `opening_date` → Data de abertura  
+- `registration_status` → Situação cadastral (active, suspended, closed)  
+- `tax_regime` → Regime tributário (Simple National, Presumed Profit, Real Profit)  
+- `estimated_annual_revenue` → Receita anual estimada  
+- `actual_annual_revenue` → Receita anual real  
+- `score` → Score de crédito/avaliação de risco  
+- `created_at` → Data de criação do registro  
+- `updated_at` → Data da última atualização  
+
+
+
+## **Tabela cnae**  
+Registra os códigos de atividades econômicas da empresa.  
+- `id` → PK  
+- `company_id` → FK → company  
+- `cnae_code` → Código da atividade econômica  
+- `cnae_type` → Tipo de atividade (primary, secondary)  
+
+
+
+## **Tabela partner**  
+Armazena os sócios e sua participação na empresa.  
+- `id` → PK  
+- `company_id` → FK → company  
+- `cpf_cnpj` → Documento do sócio (pessoa física ou jurídica)  
+- `name` → Nome do sócio  
+- `ownership_percentage` → Percentual de participação  
+- `partner_type` → Tipo de sócio (administrator, shareholder, etc.)  
+
+
+
+## **Tabela address**  
+Informações de endereço da empresa ou usuários.  
+- `id` → PK  
+- `street` → Logradouro  
+- `number` → Número  
+- `complement` → Complemento  
+- `district` → Bairro  
+- `city` → Cidade  
+- `state` → Estado  
+- `postal_code` → CEP  
+
+
+## **Tabela contact**  
+Registra formas de contato de uma empresa.  
+- `id` → PK  
+- `company_id` → FK → company  
+- `email` → Email de contato  
+- `phone` → Telefone  
+- `contact_person` → Pessoa responsável pelo contato  
+
+
+## **Tabela user**  
+Representa usuários do sistema (investidores, administradores, donos de empresa).  
+- `id` → PK  
+- `name` → Nome completo  
+- `email` → Email  
+- `cpf` → CPF do usuário  
+- `address_id` → FK → address  
+- `type` → Tipo de usuário (investor, admin, company_owner, etc.)  
+- `created_at` → Data de criação do registro  
+- `updated_at` → Data da última atualização  
+
+
+
+## **Tabela loan**  
+Registra empréstimos concedidos às empresas.  
+- `id` → PK  
+- `company_id` → FK → company (empresa devedora)  
+- `loan_number` → Número/código do empréstimo  
+- `loan_date` → Data do empréstimo  
+- `principal_amount` → Valor principal emprestado  
+- `interest_rate` → Taxa de juros aplicada  
+- `term_months` → Prazo em meses  
+- `currency` → Moeda do empréstimo  
+- `status` → Status (active, paid, default)  
+- `collateral_type` → Tipo de garantia (receivables, property, etc.)  
+- `collateral_value` → Valor total da garantia  
+- `created_at` → Data de criação  
+- `updated_at` → Data de atualização  
+
+
+
+## **Tabela loan_receivable**  
+Tabela de associação entre empréstimos e recebíveis usados como garantia.  
+- `id` → PK  
+- `loan_id` → FK → loan  
+- `receivable_id` → FK → receivable  
+- `linked_amount` → Valor do recebível vinculado ao empréstimo  
+- `status` → Status da vinculação (active, paid, released)  
+- `created_at` → Data de criação  
+- `updated_at` → Data de atualização  
+
+
+
+## **Tabela receivable**  
+Registra os recebíveis da empresa.  
+- `id` → PK  
+- `company_id` → FK → company  
+- `invoice_number` → Número da fatura/documento  
+- `issue_date` → Data de emissão  
+- `due_date` → Data de vencimento  
+- `amount` → Valor do recebível  
+- `currency` → Moeda (ex: BRL, USD)  
+- `status` → Status (pending, paid, overdue)  
+- `description` → Observações do recebível  
+- `created_at` → Data de criação  
+- `updated_at` → Data de atualização  
+
+
+
+## **Tabela loan_investor**  
+Representa a participação de investidores em empréstimos, comprando cotas.  
+- `id` → PK  
+- `loan_id` → FK → loan  
+- `user_id` → FK → user (investidor)  
+- `created_at` → Data da participação  
+- `updated_at` → Última atualização  
+
+
+
+### **Considerações de Segurança** <br/>
+Segurança é primordial em plataformas financeiras P2P, onde vazamentos podem resultar em perdas financeiras ou violações regulatórias. Durante o desenvolvimento do produto diversos fatores serão ponderados durante o denvolvimento da aplicação, incluindo:
+
+- **Autenticação e Autorização:** Usar JWT com refresh tokens e MFA (Multi-Factor Authentication) para prevenir acessos não autorizados, já que ataques como credential stuffing representam 80% das brechas financeiras  
+- **Criptografia de Dados:** Dados sensíveis (ex.: CPF, histórico financeiro) criptografados em trânsito (TLS 1.3) e em repouso (AES-256). Para RAG, embeddings anonimizados evitam exposição de PII (Personally Identifiable Information). Para lidar com a conformidade LGPD, é necessário implementar consentimento explícito para uso de dados no chat, com auditorias regulares.
+- **Proteção contra Ataques:** Rate limiting no chat para evitar DDoS; WAF (Web Application Firewall) como AWS Shield. Para RAG, validar inputs para prevenir injeções de prompt (prompt injection attacks), comuns em LLMs. 
+
 
 ---
 
