@@ -1,4 +1,4 @@
-<img src="./assets/mutual-logo.png" alt="Mutual Logo" style="max-width: 100%; height: auto;"/>
+<img src="./assets/mutual-logo.png.png" alt="Mutual Logo" style="max-width: 100%; height: auto;"/>
 
 #  Mutual: Plataforma P2P de Crédito com Lastro Assegurado (SCD/DTVM QI Tech)
 
