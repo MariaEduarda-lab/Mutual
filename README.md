@@ -27,11 +27,10 @@ O projeto está dividido em 15 tópicos principais, detalhando estratégia de me
 | 8. Diferenciais e Inovação           | Custódia/DTVM, Score Híbrido e Chatbot como vantagens.              |
 | 9. Funcionalidades & MVP             | Lista detalhada de recursos essenciais.                             |
 | 10. Modelo de Negócios & Monetização | Detalhamento do modelo Performance Fee.                             |
-| 11. Estratégia de Go-to-Market       | Posicionamento ("Braço QI Tech") e Canais de Aquisição.             |
-| 12. Indicadores de Sucesso & Impacto | KPIs focados na Confiança do Investidor PF.                         |
-| 13. Roadmap & Visão de Futuro        | Migração de Web 2 (MVP) para Web 3 (Tokenização Híbrida).           |
-| 14. Equipe e Papéis                  | Perfil dos membros e responsabilidades.                             |
-| 15. Referências & Apêndices          | Fontes e citações (Formato ABNT NBR 6023).                         |
+| 11. Indicadores de Sucesso & Impacto | KPIs focados na Confiança do Investidor PF.                         |
+| 12. Roadmap & Visão de Futuro        | Migração de Web 2 (MVP) para Web 3 (Tokenização Híbrida).           |
+| 13. Equipe e Papéis                  | Perfil dos membros e responsabilidades.                             |
+| 14. Referências & Apêndices          | Fontes e citações (Formato ABNT NBR 6023).                         |
 
 ---
 
