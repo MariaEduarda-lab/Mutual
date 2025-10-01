@@ -357,8 +357,8 @@ A implementação do RAG (Retrieval-Augmented Generation) na plataforma Mutual �
 
 **Vantagens na utilizacao da arquitetura RAG**
 
-1. **Eficiência Operacional:** Automatiza o underwriting inicial, reduzindo tempo de decisão de dias para segundos, alinhando-se ao diferencial de "decisão imediata" do CreditFlow. Buscas semânticas lidam com variações linguísticas (ex.: "capital para estoque" vs. "funding para compras"), melhorando a UX para usuários não-técnicos.
-2. **Escalabilidade e Custo-Efetividade:** Vector databases permitem buscas rápidas em grandes volumes de dados sem queries SQL caras. Para uma plataforma como CreditFlow, isso escala com o crescimento de PMEs sem aumentar custos lineares, suportando milhares de consultas diárias.
+1. **Eficiência Operacional:** Automatiza o underwriting inicial, reduzindo tempo de decisão de dias para segundos, alinhando-se ao diferencial de "decisão imediata" do Mutual. Buscas semânticas lidam com variações linguísticas (ex.: "capital para estoque" vs. "funding para compras"), melhorando a UX para usuários não-técnicos.
+2. **Escalabilidade e Custo-Efetividade:** Vector databases permitem buscas rápidas em grandes volumes de dados sem queries SQL caras. Para uma plataforma como Mutual, isso escala com o crescimento de PMEs sem aumentar custos lineares, suportando milhares de consultas diárias.
 3. **Segurança e Compliance:** Embeddings anonimizados e recuperação controlada minimizam riscos de vazamento de dados sensíveis, atendendo LGPD e regulamentações do BCB para fintechs P2P.
 
 
